@@ -18,7 +18,7 @@ int main() {
 		 		ans.push('+');
 		 	} 
 		 }
-		 if(b == j || b == in.top()){
+		 if(b == in.top()){
 		 	in.pop();
 		 	ans.push('-');
 		 }
